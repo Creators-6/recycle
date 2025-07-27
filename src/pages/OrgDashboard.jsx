@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { db, auth } from '../firebase';
 import { collection, query, where, getDocs, updateDoc, doc, getDoc, Timestamp, onSnapshot, addDoc, setDoc } from 'firebase/firestore';
-import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api'; // If you have this package, otherwise comment out
+// import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api'; // If you have this package, otherwise comment out
 
 const PRIMARY = '#2E7D32';
 const BG = '#E8F5E9';
